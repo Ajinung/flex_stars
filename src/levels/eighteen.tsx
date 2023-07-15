@@ -37,7 +37,7 @@ const Eighteen = () => {
         <div>
           <Instructions
             level={18}
-            first="The stars are all squeezed onto a single row of circles. Spread them out using the flex-wrap property"
+            first="eniola are all squeezed onto a single row of circles. Spread them out using the flex-wrap property"
             second="nowrap: Every item is fit to a single line.
 wrap: Items wrap around to additional lines.
 wrap-reverse: Items wrap around to additional lines in reverse."
@@ -58,7 +58,8 @@ wrap-reverse: Items wrap around to additional lines in reverse."
                   onClick={() => {
                     navigate("/19");
                   }}
-                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none">
+                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none"
+                >
                   NEXT
                 </button>
               ) : (
