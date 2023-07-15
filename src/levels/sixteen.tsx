@@ -42,18 +42,21 @@ const Sixteen = () => {
           <div className="w-11/12 mr-[30px] m-auto py-[20px] flex flex-col gap-[10px] bg-[#d1b61c] rounded-xl">
             <div className="ml-[20px] font-[600]"> {".stars {"} </div>
             <div className="ml-[35px]"> {"display: flex ;"} </div>
+            <div className="ml-[35px]"> {"align-items: flex-start;"} </div>
+            <div className="ml-[20px] font-[600]"> {"}"} </div>
+            <div className="ml-[20px]"> {".gold {"} </div>
             <textarea
               onChange={(e) => {
                 setStyles(e.target.value);
               }}
               className="w-11/12 p-2 focus:outline-none ml-[35px]"
             />
-            <div className="ml-[20px] font-[600]"> {"}"} </div>
+            <div className="ml-[20px]"> {"}"} </div>
             <div className="flex justify-center">
               {yes ? (
                 <button
                   onClick={() => {
-                    navigate("/11");
+                    navigate("/17");
                   }}
                   className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none">
                   NEXT

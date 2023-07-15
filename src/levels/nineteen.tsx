@@ -59,7 +59,7 @@ const Nineteen = () => {
         <div>
           <Instructions
             level={19}
-            first="Combine order with align-self to help the frogs to their destinations."
+            first="Help these stars form three orderly columns like the circles using a combination of flex-direction and flex-wrap."
             second=""
           />
           <div className="w-11/12 md:mr-[30px] m-auto py-[20px] flex flex-col gap-[10px] bg-[#d1b61c] rounded-xl">
@@ -76,7 +76,7 @@ const Nineteen = () => {
               {yes ? (
                 <button
                   onClick={() => {
-                    navigate("/11");
+                    navigate("/20");
                   }}
                   className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none">
                   NEXT
