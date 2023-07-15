@@ -27,7 +27,7 @@ const Eight = () => {
         <div>
           <Instructions
             level={8}
-            first="The stars need to get in the same order as their circles using flex-direction. This CSS property defines the direction items are placed in the container."
+            first="Eniola need to get in the same order as their circles using flex-direction. This CSS property defines the direction items are placed in the container."
             second="row: Items are placed the same as the text direction.
 row-reverse: Items are placed opposite to the text direction.
 column: Items are placed top to bottom.
@@ -49,7 +49,8 @@ column-reverse: Items are placed bottom to top."
                   onClick={() => {
                     navigate("/9");
                   }}
-                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none">
+                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none"
+                >
                   NEXT
                 </button>
               ) : (
