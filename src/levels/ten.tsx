@@ -32,7 +32,7 @@ const Ten = () => {
         <div>
           <Instructions
             level={10}
-            first="Help the stars into their own circles. Although they seem close, it will take both flex-direction and justify-content to get them there."
+            first="Help eniola's into their own circles. Although they seem close, it will take both flex-direction and justify-content to get them there."
             second="Notice that when you set the direction to a reversed row or column, start and end are also reversed."
           />
           <div className="w-11/12 md:mr-[30px] m-auto py-[20px] flex flex-col gap-[10px] bg-[#d1b61c] rounded-xl">
@@ -51,7 +51,8 @@ const Ten = () => {
                   onClick={() => {
                     navigate("/11");
                   }}
-                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none">
+                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none"
+                >
                   NEXT
                 </button>
               ) : (
