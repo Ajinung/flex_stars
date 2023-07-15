@@ -5,8 +5,8 @@ import { useNavigate } from "react-router-dom";
 
 const Twelve = () => {
   const [styles, setStyles] = useState<string>("");
-  const ideal_style1 = "flex-direction: column-reverse;";
-  const ideal_style2 = "justify-content: space-between;";
+  const ideal_style1 = "flex-direction:column-reverse;";
+  const ideal_style2 = "justify-content:space-between;";
   const ideal_style = ideal_style1.concat(ideal_style2);
   const yes: boolean =
     styles.replaceAll(" ", "").includes(ideal_style1) &&
