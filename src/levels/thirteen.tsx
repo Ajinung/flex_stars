@@ -36,7 +36,7 @@ const Thirteen = () => {
         <div>
           <Instructions
             level={13}
-            first="Help the stars find their circles using flex-direction, justify-content, and align-items."
+            first="Help eniola find their circles using flex-direction, justify-content, and align-items."
             second=""
           />
           <div className="w-11/12 mr-[30px] m-auto py-[20px] flex flex-col gap-[10px] bg-[#d1b61c] rounded-xl">
@@ -55,7 +55,8 @@ const Thirteen = () => {
                   onClick={() => {
                     navigate("/14");
                   }}
-                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none">
+                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none"
+                >
                   NEXT
                 </button>
               ) : (
