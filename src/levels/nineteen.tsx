@@ -113,7 +113,7 @@ const TargetContainer = styled.div<{ idealStyle: string }>`
 const Container = styled.div<{ clientStyle: string }>`
   width: 100%;
   height: 100%;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   position: absolute;
   top: 0;
   left: 0;

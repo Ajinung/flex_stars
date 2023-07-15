@@ -13,8 +13,8 @@ const TwentyOne = () => {
     styles.replaceAll(" ", "").includes(ideal_style2);
   const navigate = useNavigate();
   return (
-    <div className="w-screen md:flex flex-row-reverse">
-      <div className="w-full p-2 pt-5 h-[400px] flex justify-center items-center md:h-screen bg-[#2c2c2c]">
+    <div className="w-screen md:h-fit bg-[#2c2c2c] md:flex flex-row-reverse">
+      <div className="w-full p-2 pt-5 h-[400px] flex justify-center items-center md:min-h-[100vh] bg-[#2c2c2c]">
         <div className="w-[300px] h-[300px]">
           <TargetContainer idealStyle={ideal_style.concat("flex-wrap: wrap;")}>
             <Circles colors="gold" />
@@ -52,7 +52,7 @@ const TwentyOne = () => {
           </TargetContainer>
         </div>
       </div>
-      <div className="w-full pb-12 md:h-screen relative bg-[#ffde22]">
+      <div className="w-full pb-12 md:h-fit relative bg-[#ffde22]">
         <div>
           <Instructions
             level={21}
@@ -81,8 +81,7 @@ stretch: Lines are stretched to fit the container."
                   onClick={() => {
                     navigate("/22");
                   }}
-                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none"
-                >
+                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none">
                   NEXT
                 </button>
               ) : (
