@@ -26,7 +26,7 @@ const One = () => {
         <div>
           <Instructions
             level={1}
-            first="Welcome to Stars In Circles, a game where you help our stars by writing CSS code! Guide this star to the circle on the right by using the justify-content property, which aligns items horizontally. For example, justify-content: flex-end; will move the star to the right."
+            first="Welcome to Go Flex, a game where you help our Eniola by writing CSS code! Guide this star to the circle on the right by using the justify-content property, which aligns items horizontally. For example, justify-content: flex-end; will move the star to the right."
             second="flex-start: Items align to the left side of the container.
 flex-end: Items align to the right side of the container.
 center: Items align at the center of the container.
