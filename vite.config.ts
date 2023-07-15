@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import federation from "@originjs/vite-plugin-federation";
+import { VitePWA } from "vite-plugin-pwa";
 // https://vitejs.dev/config/
 
 export default defineConfig({
@@ -14,6 +15,7 @@ export default defineConfig({
       },
       shared: ["react", "react-dom", "react-router-dom"],
     }),
+    VitePWA({ registerType: "autoUpdate" }),
   ],
   build: {
     modulePreload: false,
