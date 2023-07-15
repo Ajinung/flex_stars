@@ -56,7 +56,7 @@ const TwentyTwo = () => {
         <div>
           <Instructions
             level={22}
-            first="Combine order with align-self to help the frogs to their destinations."
+            first="Now the current has bunched the circles at the bottom. Use align-content to guide Eniola there."
             second=""
           />
           <div className="w-11/12 md:mr-[30px] m-auto py-[20px] flex flex-col gap-[10px] bg-[#d1b61c] rounded-xl">
@@ -75,7 +75,8 @@ const TwentyTwo = () => {
                   onClick={() => {
                     navigate("/11");
                   }}
-                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none">
+                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none"
+                >
                   NEXT
                 </button>
               ) : (

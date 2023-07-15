@@ -56,7 +56,7 @@ const TwentyThree = () => {
         <div>
           <Instructions
             level={23}
-            first="Combine order with align-self to help the frogs to their destinations."
+            first="Eniola have had a party, but it is time to go home. Use a combination of flex-direction and align-content to get them to their circles"
             second=""
           />
           <div className="w-11/12 md:mr-[30px] m-auto py-[20px] flex flex-col gap-[10px] bg-[#d1b61c] rounded-xl">
@@ -75,7 +75,8 @@ const TwentyThree = () => {
                   onClick={() => {
                     navigate("/11");
                   }}
-                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none">
+                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none"
+                >
                   NEXT
                 </button>
               ) : (

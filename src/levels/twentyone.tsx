@@ -56,8 +56,14 @@ const TwentyOne = () => {
         <div>
           <Instructions
             level={21}
-            first="Combine order with align-self to help the frogs to their destinations."
-            second=""
+            first="Eniola is spread all over the pond, but the circles are bunched at the top. You can use align-content to set how multiple lines are spaced apart from each other. This property takes the following values:"
+            second="flex-start: Lines are packed at the top of the container.
+flex-end: Lines are packed at the bottom of the container.
+center: Lines are packed at the vertical center of the container.
+space-between: Lines display with equal spacing between them.
+space-around: Lines display with equal spacing around them.
+stretch: Lines are stretched to fit the container."
+            third="This can be confusing, but align-content determines the spacing between lines, while align-items determines how the items as a whole are aligned within the container. When there is only one line, align-content has no effect."
           />
           <div className="w-11/12 md:mr-[30px] m-auto py-[20px] flex flex-col gap-[10px] bg-[#d1b61c] rounded-xl">
             <div className="ml-[20px] font-[600]"> {".stars {"} </div>
@@ -73,9 +79,10 @@ const TwentyOne = () => {
               {yes ? (
                 <button
                   onClick={() => {
-                    navigate("/11");
+                    navigate("/22");
                   }}
-                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none">
+                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none"
+                >
                   NEXT
                 </button>
               ) : (

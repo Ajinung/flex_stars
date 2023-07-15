@@ -47,8 +47,17 @@ const TwentyFour = () => {
         <div>
           <Instructions
             level={24}
-            first="Combine order with align-self to help the frogs to their destinations."
-            second=""
+            first="Bring Eniola home one last time by using the CSS properties you've learned:"
+            second="justify-content
+align-items
+flex-direction
+order
+align-self
+flex-wrap
+flex-flow
+align-content
+
+"
           />
           <div className="w-11/12 md:mr-[30px] m-auto py-[20px] flex flex-col gap-[10px] bg-[#d1b61c] rounded-xl">
             <div className="ml-[20px] font-[600]"> {".stars {"} </div>
@@ -66,7 +75,8 @@ const TwentyFour = () => {
                   onClick={() => {
                     navigate("/11");
                   }}
-                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none">
+                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none"
+                >
                   NEXT
                 </button>
               ) : (
