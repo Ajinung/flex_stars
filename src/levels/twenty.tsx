@@ -59,8 +59,9 @@ const Twenty = () => {
         <div>
           <Instructions
             level={20}
-            first="Combine order with align-self to help the frogs to their destinations."
-            second=""
+            first="The two properties flex-direction and flex-wrap are used so often together that the shorthand property flex-flow was created to combine them. This shorthand property accepts the value of the two properties separated by a space."
+            second="For example, you can use flex-flow: row wrap to set rows and wrap them."
+            third="Try using flex-flow to repeat the previous level."
           />
           <div className="w-11/12 md:mr-[30px] m-auto py-[20px] flex flex-col gap-[10px] bg-[#d1b61c] rounded-xl">
             <div className="ml-[20px] font-[600]"> {".stars {"} </div>
