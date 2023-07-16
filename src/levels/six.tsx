@@ -26,7 +26,7 @@ const Six = () => {
         <div>
           <Instructions
             level={6}
-            first="Lead the star to the circle at the center using a combination of justify-content and align-items."
+            first="Lead eniola to the circle at the center using a combination of justify-content and align-items."
             second=""
           />
           <div className="w-11/12 mr-[30px] m-auto py-[20px] flex flex-col gap-[10px] bg-[#d1b61c] rounded-xl">
@@ -45,7 +45,8 @@ const Six = () => {
                   onClick={() => {
                     navigate("/7");
                   }}
-                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none">
+                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none"
+                >
                   NEXT
                 </button>
               ) : (

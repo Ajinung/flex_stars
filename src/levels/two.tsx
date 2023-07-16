@@ -25,7 +25,7 @@ const Two = () => {
         <div>
           <Instructions
             level={2}
-            first="Use justify-content again to help these stars get to their circles. Remember that this CSS property aligns items horizontally."
+            first="Use justify-content again to help Eniola get to her circles. Remember that this CSS property aligns items horizontally."
             second="flex-start: Items align to the left side of the container.
 flex-end: Items align to the right side of the container.
 center: Items align at the center of the container.
@@ -48,7 +48,8 @@ space-around: Items display with equal spacing around them."
                   onClick={() => {
                     navigate("/3");
                   }}
-                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none">
+                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none"
+                >
                   NEXT
                 </button>
               ) : (

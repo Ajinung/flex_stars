@@ -30,7 +30,7 @@ const Five = () => {
         <div>
           <Instructions
             level={5}
-            first="Now use align-items to help the stars get to the circles at the bottom. This CSS property aligns items vertically."
+            first="Now use align-items to help eniola get to the circles at the bottom. This CSS property aligns items vertically."
             second="flex-start: Items align to the top of the container.
 flex-end: Items align to the bottom of the container.
 center: Items align at the vertical center of the container.
@@ -53,7 +53,8 @@ stretch: Items are stretched to fit the container."
                   onClick={() => {
                     navigate("/6");
                   }}
-                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none">
+                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none"
+                >
                   NEXT
                 </button>
               ) : (

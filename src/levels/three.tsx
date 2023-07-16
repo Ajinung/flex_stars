@@ -27,7 +27,7 @@ const Three = () => {
         <div>
           <Instructions
             level={3}
-            first="Help all three stars find their circles just by using justify-content. This time, the circles have lots of space all around them."
+            first="Help all three Eniola's find their circles just by using justify-content. This time, the circles have lots of space all around them."
             second="flex-start: Items align to the left side of the container. flex-end: Items align to the right side of the container. center: Items align at the center of the container. space-between: Items display with equal spacing between them. space-around: Items display with equal spacing around them."
           />
           <div className="w-11/12 mr-[30px] m-auto py-[20px] flex flex-col gap-[10px] bg-[#d1b61c] rounded-xl">
@@ -46,7 +46,8 @@ const Three = () => {
                   onClick={() => {
                     navigate("/4");
                   }}
-                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none">
+                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none"
+                >
                   NEXT
                 </button>
               ) : (
