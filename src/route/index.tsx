@@ -25,6 +25,7 @@ import {
   TwentyTwo,
   Two,
 } from "../levels";
+import { Congrats } from "../parts";
 
 export const router = createBrowserRouter([
   {
@@ -122,5 +123,9 @@ export const router = createBrowserRouter([
   {
     path: "/24",
     element: <TwentyFour />,
+  },
+  {
+    path: "/fin",
+    element: <Congrats />,
   },
 ]);
