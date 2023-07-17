@@ -125,7 +125,7 @@ export const router = createBrowserRouter([
     element: <TwentyFour />,
   },
   {
-    path: "/fin",
+    path: "/finfinfinfinfinfinfinfin",
     element: <Congrats />,
   },
 ]);
