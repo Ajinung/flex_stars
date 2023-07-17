@@ -73,10 +73,9 @@ const TwentyTwo = () => {
               {yes ? (
                 <button
                   onClick={() => {
-                    navigate("/11");
+                    navigate("/23");
                   }}
-                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none"
-                >
+                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none">
                   NEXT
                 </button>
               ) : (

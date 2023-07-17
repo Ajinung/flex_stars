@@ -5,9 +5,14 @@ import { useNavigate } from "react-router-dom";
 
 const Fourteen = () => {
   const [styles, setStyles] = useState<string>("");
-  const ideal_style1 = "order:3;";
-  const ideal_style = ideal_style1;
-  const yes: boolean = styles.replaceAll(" ", "").includes(ideal_style1);
+  const ideal_style1 = "order:1;";
+  const ideal_style2 = "order:2;";
+  const ideal_style3 = "order:3;";
+  const ideal_style = ideal_style1 || ideal_style2 || ideal_style3;
+  const yes: boolean =
+    styles.replaceAll(" ", "").includes(ideal_style1) ||
+    styles.replaceAll(" ", "").includes(ideal_style2) ||
+    styles.replaceAll(" ", "").includes(ideal_style3);
   const navigate = useNavigate();
   return (
     <div className="w-screen lg:flex flex-row-reverse">
