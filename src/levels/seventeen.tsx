@@ -5,12 +5,23 @@ import { useNavigate } from "react-router-dom";
 
 const Seventeen = () => {
   const [styles, setStyles] = useState<string>("");
-  const ideal_style1 = "order:2;";
+  const ideal_style1 = `order:1;`;
+  const ideal_style11 = `order:2;`;
+  const ideal_style12 = `order:3;`;
+  const ideal_style13 = `order:4;`;
   const ideal_style2 = "align-self:end;";
   const ideal_style3 = "align-self:flex-end;";
-  const ideal_style = ideal_style1.concat(ideal_style2 || ideal_style3);
+  const ideal_style = (
+    ideal_style1 ||
+    ideal_style11 ||
+    ideal_style12 ||
+    ideal_style13
+  ).concat(ideal_style2 || ideal_style3);
   const yes: boolean =
-    styles.replaceAll(" ", "").includes(ideal_style1) &&
+    (styles.replaceAll(" ", "").includes(ideal_style1) ||
+      styles.replaceAll(" ", "").includes(ideal_style11) ||
+      styles.replaceAll(" ", "").includes(ideal_style12) ||
+      styles.replaceAll(" ", "").includes(ideal_style13)) &&
     (styles.replaceAll(" ", "").includes(ideal_style2) ||
       styles.replaceAll(" ", "").includes(ideal_style3));
   const navigate = useNavigate();
@@ -60,8 +71,7 @@ const Seventeen = () => {
                   onClick={() => {
                     navigate("/18");
                   }}
-                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none"
-                >
+                  className="bg-[green] rounded-[4px] text-slate-50 py-1 px-3 transition-all duration-[350ms] cursor-pointer hover:outline-none focus:outline-none">
                   NEXT
                 </button>
               ) : (
